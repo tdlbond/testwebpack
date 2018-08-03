@@ -1,13 +1,16 @@
 import _ from 'lodash';
-import './style.css';
-import img from './haha.jpg';
+import sayHi from './print';
+
 function component() {
   let element = document.createElement('div');
+  let btn = document.createElement('button');
+
   element.innerHTML = _.join(['hello', 'webpack'], ' ');
-  element.classList.add('hello');
-  let pic = new Image();
-  pic.src = img;
-  element.appendChild(pic);
+  btn.innerHTML = 'Greeting!';
+  btn.onclick = sayHi;
+
+  element.appendChild(btn);
+
   return element;
 }
 
