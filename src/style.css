@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./myFont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.hello {
+  color: orange;
+  font-family: 'MyFont';
+  background: url('./haha.jpg') no-repeat;
+}
