@@ -1,3 +1,3 @@
 export default function sayHi() {
-  console.log('hi, tom!');
+  console.log('tom and jerry!');
 }
