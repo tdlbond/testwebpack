@@ -16,6 +16,8 @@ function component() {
   return element;
 }
 
+console.log(process.env.NODE_ENV);
+
 // document.body.appendChild(component());
 let element = component();
 document.body.appendChild(element);
